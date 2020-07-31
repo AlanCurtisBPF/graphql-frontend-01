@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import AUser from "../../components/AUser/AUser";
 
 const Page01 = () => {
   const [users, setUsers] = useState([]);
@@ -19,6 +20,7 @@ const Page01 = () => {
         {users.map((user, i) => (
           <div key={i}>{user.name}</div>
         ))}
+        <AUser></AUser>
       </div>
     </div>
   );
