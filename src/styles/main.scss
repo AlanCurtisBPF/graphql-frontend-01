@@ -3,6 +3,11 @@
 @import "/base/mixins";
 @import "/base/globals";
 
-// views
+// pages
+@import "../pages/Page01/Page01";
+@import "../pages/Page02/Page02";
 
 // components
+@import "../components/AHeader/AHeader";
+@import "../components/AFooter/AFooter";
+@import "../components/ANav/ANav";

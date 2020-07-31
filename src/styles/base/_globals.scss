@@ -1,3 +1,5 @@
 .App {
-  @extend .f-center;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  height: 100%;
 }
