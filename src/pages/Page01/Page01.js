@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import AUser from "../../components/AUser/AUser";
+import AUserEdit from "../../components/AUserEdit/AUserEdit";
 
 const Page01 = () => {
   const [users, setUsers] = useState([]);
@@ -21,6 +22,7 @@ const Page01 = () => {
           <div key={i}>{user.name}</div>
         ))}
         <AUser></AUser>
+        <AUserEdit></AUserEdit>
       </div>
     </div>
   );

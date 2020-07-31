@@ -6,7 +6,7 @@ const AUser = (props) => {
     <div className="AUser">
       AUser
       <div className="name">{props.user.name}</div>
-      <div className="name">{props.user.email}</div>
+      <div className="email">{props.user.email}</div>
     </div>
   );
 };
